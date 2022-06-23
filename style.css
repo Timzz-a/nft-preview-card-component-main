@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+/* styling the entire page*/
+
+body {
+  background-color: #0c1c2e;
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  color: hsl(0, 0%, 100%);
+}
+
+/* styling the nft card widget */
+
+.nft_card {
+  margin: 100px auto;
+  width: 350px;
+  height: 600px;
+  max-width: 100%;
+  background-color: #0e2238;
+  box-shadow: 0px 24px 32px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.nft_image {
+  position: relative;
+  width: 302px;
+  height: 302px;
+  border-radius: 8px;
+  left: 24px;
+  top: 24px;
+}
+
+/* nft eye icon invincible state */
+.icon_view {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  left: 151px;
+  top: -151px;
+  filter: opacity(0%);
+}
+/* making the eye icon visible */
+.nft_card .icon_view:hover {
+  filter: opacity(100%) drop-shadow(0 0 0 hsl(178, 100%, 50%));
+}
+
+/* this is to enable active state on the nft picture*/
+.nft_image:hover {
+  filter: opacity(0.6) brightness(150%) drop-shadow(0 0 0 hsl(178, 100%, 50%));
+  cursor: pointer;
+}
+
+
+.card_details {
+  margin: auto;
+  width: 302px;
+}
+
+.card_details a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+
+/* styling the hover state for the h3(nft title) */
+h3:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+/* styling the price and the time left */
+.price_time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0px;
+}
+
+/* styling the creator avatar */
+#creator {
+  width: 32px;
+  height: 32px;
+  border: 1px solid white;
+  border-radius: 25101994px;
+}
+
+h4 {
+  color: #1ec3c3;
+}
+/* stlying the paragraph text */
+p {
+  color: hsl(215, 51%, 70%);
+  padding: 12px 0px;
+}
+.creator {
+  padding: 12px 0px;
+}
+.creator a {
+  text-decoration: none;
+}
+/* styling the hover state for the creator name */
+.creator b:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+
+.creator #creator_details {
+  display: flex;
+  justify-content: flex-start;
+  gap: 12px;
+  align-items: center;
+}
+/* attribution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.attribution a {
+  color: hsl(229, 100%, 94%);
+  text-decoration: none;
+}
+/* styling the horizontal line */
+hr {
+  height: 2px;
+  background-color: hsl(215, 32%, 27%);
+  border: none;
+}
+
+b {
+  color: hsl(0, 0%, 100%);
+}
