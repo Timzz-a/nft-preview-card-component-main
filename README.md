@@ -86,7 +86,7 @@ I still need to understand when to use the justify and align features of the css
 
 - [Positioning image above another](https://www.w3docs.com/snippets/css/how-to-position-one-image-on-top-of-another-in-html-css.html) - This particularly proved useful while I was trying to place the eye icon over the nft (equilibrum) image.
 
-- [Styling hr tag](https://www.w3docs.com/snippets/html/how-to-change-the-color-of-an-hr-element.html) - This is an amazing article which helped me finally understand ow to style the <hr> tag. I'd recommend it to anyone still learning this concept.
+- [Styling hr tag](https://www.w3docs.com/snippets/html/how-to-change-the-color-of-an-hr-element.html) - This is an amazing article which helped me finally understand ow to style the hr tag. I'd recommend it to anyone still learning this concept.
 
 
 
